@@ -199,6 +199,7 @@ class Premailer
                 :replace_html_entities => false,
                 :escape_url_attributes => true,
                 :unescaped_ampersand => false,
+                :write_unmergable_css_rules => true,
                 :adapter => Adapter.use,
                 }.merge(options)
 
